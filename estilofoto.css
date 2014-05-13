@@ -1,0 +1,376 @@
+@charset "UTF-8";
+
+body{
+	overflow-x: hidden;
+	margin: 0;
+	
+	
+}
+#wrapper{
+	width: 100%;
+	
+	float: left;
+	background-color: #f0f0f2;
+	
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	z-index: 10;
+
+}
+.logo{
+	width: 19%;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+	opacity: 0.7;
+}
+.nav1{
+	width:auto;
+	overflow: hidden;
+	float:right;
+	text-align: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	font: 1.2em 'Raleway', sans-serif;
+	font-weight: 200;
+	
+
+}
+.bot{
+	float: left;
+	width: auto;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+}
+.bot:hover{
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.sub{
+	width: 126px;
+	height: 60px;
+	float: left;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+	
+}
+.sub:hover{
+	width: 500px;
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.my a{
+	margin-top: 1px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: auto;
+	height: 60px;
+	color: white;
+	font-weight: 200;
+	float: left;
+	color: white;
+	text-decoration: none;
+	
+}
+.bot2{
+	margin-bottom: 10px;
+	width: 400px;
+	height: 60px;
+	font: 0.8em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+}
+.bot2:hover{
+	background-color: rgba(0, 0, 0, 0.41);
+}	
+#galeria{
+	width: 100%;
+	overflow: hidden;
+	border: 1px solid #333;	
+	float: left;
+	
+	
+	
+}
+.street{
+	width: 20%;
+	height:800px;
+	background-image: url(img/foto/galeria1.jpg);
+	background-size: cover;
+	box-shadow: 8px 0 8px rgba(22, 22, 22, 0.6);
+	position: relative;
+	float: left;
+	z-index: 8;
+	
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-o-transition: 0.6s;
+	
+}
+.street:hover{
+	width: 400px;
+}
+
+	
+	#capa{
+	
+		width:100%;
+		height: 800px;
+		background-color: black;
+		opacity: 0;
+		-webkit-transition: opacity 0,1s;
+		float: left;
+		position: absolute;
+		overflow: hidden;
+	}
+	
+	.street:hover #capa{
+		opacity: 0.8;
+	
+	
+	}
+	#titulo{
+		position: absolute;
+		font: 5em 'Raleway', sans-serif;
+		font-weight: 200;
+		color: white;
+		margin-top: 460px;
+		margin-left: -240px; /*alojar fuera el texto*/
+		-webkit-transition: margin 0,1s; /*velocidad de entradaa del texto*/
+	}
+	.street:hover #titulo{
+		margin-left: 20px; /*distancia de entrada*/
+	}
+
+		
+		#continfo{
+			font: 1em 'Raleway', sans-serif;
+			font-weight: 200;
+			width: 70%;
+			text-align: left;
+			margin-top: 900px;
+			color: white;
+			
+			margin-left: 20px;
+			-webkit-transition: margin 0,1s;
+			-ms-transition: margin 0,1s;
+			-o-transition: margin 0,1s;
+			-mz-transition: margin 0,1s;
+			}
+	
+	.street:hover #continfo{
+		margin-top: 560px;
+	
+	
+	
+		
+}
+
+.momentos{
+	width: 20%;
+	height:800px;
+	background-image: url(img/foto/galeria2.jpg);
+	background-size: cover;
+	box-shadow: 8px 0 8px rgba(22, 22, 22, 0.6);
+	float: left;
+	position: relative;
+	z-index: 7;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-o-transition: 0.6s;
+	
+}
+.momentos:hover{
+	width: 400px;
+}
+
+
+.momentos:hover #capa{
+	opacity: 0.8;
+
+
+}
+#titulo2{
+	position: absolute;
+	font: 4.9em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	margin-top: 460px;
+	margin-left: -240px; /*alojar fuera el texto*/
+	-webkit-transition: margin 0,1s;
+	-ms-transition: margin 0,1s;
+	-o-transition: margin 0,1s;
+	-mz-transition: margin 0,1s;
+}
+.momentos:hover #titulo2{
+	margin-left: 5px; /*distancia de entrada*/
+}
+#continfo2{
+	font: 1em 'Raleway', sans-serif;
+	font-weight: 200;
+	width: 70%;
+	text-align: left;
+	margin-top: 900px;
+	color: white;
+	
+	margin-left: 10px;
+	-webkit-transition: margin 0,1s;
+	-ms-transition: margin 0,1s;
+	-o-transition: margin 0,1s;
+	-mz-transition: margin 0,1s;
+	}
+
+.momentos:hover #continfo2{
+	margin-top: 550px;
+}
+
+.books{
+	width: 20%;
+	height:800px;
+	background-image: url(img/foto/galeria3.jpg);
+	background-size: cover;
+	box-shadow: 8px 0 8px rgba(22, 22, 22, 0.6);
+	float: left;
+	position: relative;
+	z-index: 6;
+	-webkit-transition: 0.6s;
+	-moz-transition: 0.6s;
+	-ms-transition: 0.6s;
+	-o-transition: 0.6s;
+	
+}
+.books:hover{
+	width: 400px;
+}
+
+.books:hover #capa{
+	opacity: 0.8;
+
+
+}
+#titulo3{
+	position: absolute;
+	font: 5em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	margin-top: 460px;
+	margin-left: -240px; /*alojar fuera el texto*/
+	-webkit-transition: margin 0,1s;
+	-ms-transition: margin 0,1s;
+	-o-transition: margin 0,1s;
+	-mz-transition: margin 0,1s;
+}
+.books:hover #titulo3{
+	margin-left: 5px; /*distancia de entrada*/
+}
+#continfo3{
+	font: 1em 'Raleway', sans-serif;
+	font-weight: 200;
+	width: 70%;
+	text-align: left;
+	margin-top: 700px;
+	color: white;
+	
+	margin-left: 10px;
+		-webkit-transition: margin 0,1s;
+		-ms-transition: margin 0,1s;
+		-o-transition: margin 0,1s;
+		-mz-transition: margin 0,1s;
+}
+
+.books:hover #continfo3{
+	margin-top: 550px;
+}
+
+
+
+
+
+.publicidad{
+	width: 20%;
+	height:800px;
+	background-image: url(img/foto/galeria4.jpg);
+	background-size: cover;
+	box-shadow: 8px 0 8px rgba(22, 22, 22, 0.6);
+	float: left;
+	position: relative;
+	z-index: 5;
+-webkit-transition: 0.6s;
+-moz-transition: 0.6s;
+-ms-transition: 0.6s;
+-o-transition: 0.6s;
+	
+}
+.publicidad:hover{
+	width:400px;
+}
+
+
+.publicidad:hover #capa{
+	opacity: 0.8;
+
+
+}
+#titulo4{
+	position: absolute;
+	font: 5em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	margin-top: 460px;
+	margin-left: -240px; /*alojar fuera el texto*/
+	-webkit-transition: margin 0,1s;
+	-ms-transition: margin 0,1s;
+	-o-transition: margin 0,1s;
+	-mz-transition: margin 0,1s;
+	}
+.publicidad:hover #titulo4{
+	margin-left: 5px; /*distancia de entrada*/
+}
+#continfo4{
+	font: 1em 'Raleway', sans-serif;
+	font-weight: 200;
+	width: 70%;
+	text-align: left;
+	margin-top: 700px;
+	color: white;
+	
+	margin-left: 10px;
+		-webkit-transition: margin 0,1s;
+		-ms-transition: margin 0,1s;
+		-o-transition: margin 0,1s;
+		-mz-transition: margin 0,1s;
+	
+}
+
+.publicidad:hover #continfo4{
+	margin-top: 550px;
+}
+
+
+	
+

@@ -1,0 +1,675 @@
+@charset "UTF-8";
+
+body{
+	width: 100%;
+	
+	margin: 0;
+	background-color: black;
+	
+}
+#wrapper{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: black;
+	
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	z-index: 10;
+
+}
+.logo{
+	width: 19%;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+	opacity: 0.7;
+}
+.nav1{
+	width:auto;
+	overflow: hidden;
+	float:right;
+	text-align: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	font: 1.2em 'Raleway', sans-serif;
+	font-weight: 200;
+	
+
+}
+.bot{
+	float: left;
+	width: auto;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+}
+.bot:hover{
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.sub{
+	width: 126px;
+	height: 60px;
+	float: left;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+	
+}
+.sub:hover{
+	width: 500px;
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.my a{
+	margin-top: 1px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: auto;
+	height: 60px;
+	color: white;
+	font-weight: 200;
+	float: left;
+	color: white;
+	text-decoration: none;
+	
+}
+.bot2{
+	margin-bottom: 10px;
+	width: 400px;
+	height: 60px;
+	font: 0.8em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+}
+.bot2:hover{
+	background-color: rgba(0, 0, 0, 0.41);
+	
+}
+section{
+	width: 100%;
+	background-color: black;
+	position: relative;
+	z-index: 8;
+	
+}
+section a{
+	width: 100%;
+}
+section video{
+	width: 1423px;
+	 height: 800px; 
+	 
+		 
+}
+.textvideo{
+	width: 100%;
+	overflow: hidden;
+	font: 3.8em 'Raleway', sans-serif;
+	font-weight: 200;
+	position: absolute;
+	z-index: 9;
+	margin-top: -230px;
+	text-align: center;
+	
+	
+}
+.textovid a{
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+}
+.textovid a:hover{
+	color:#01ABF9 ;
+	opacity: 1;
+}
+.art1{
+	
+	width: 100%;
+	height: 450px;
+	float: left;
+	margin-top: -35px;
+	background: url(img/fondostreet.jpg) no-repeat center;
+	background-size: cover;
+	box-shadow: 0 0 40px #000000;
+	position: relative;
+	z-index:4;
+}
+.texto{
+	float: left;
+	width: 300px;
+	height:400px;
+	margin: 130px;
+	margin-left: 90PX;
+	margin-top: 0;
+	color: black;
+	
+
+}
+
+.art2{
+	
+	width: 100%;
+	height: 750px;
+	float: left;
+	margin-top: -5px;
+	background: url(img/foto/mo/mplaya1.jpg) no-repeat center;
+	background-size: cover;
+	box-shadow: 0 0 40px #000000;
+	position: relative;
+	z-index: 0;
+	
+}
+.texto2{
+	float: right;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-left: 90PX;
+	color: #ccc;
+
+}
+.texto2 p{
+
+	font: 3.8em 'Raleway', sans-serif;
+	font-weight: 200;
+	margin-top: -420px;
+	margin-left: 65%;
+	text-align: justify;
+border-bottom: 1px solid #01ABF9;
+position: absolute;
+z-index: 9;
+	letter-spacing: 10px;
+}
+.texto2 p bdi{
+	font: 0.3em/10px 'Raleway', sans-serif;
+	font-weight: 200;
+	border-bottom: 1px solid #333;
+	
+}
+
+h1{
+	width: 408px;
+	font: 4.2em 'Raleway', sans-serif;
+	font-weight: 200;
+	border-bottom: 1px solid #01ABF9;
+	text-align: left;
+	letter-spacing: 0.3em;
+}
+h2{
+	width: 300px;
+	font: 2em 'Raleway', sans-serif;
+	font-weight: 200;
+	text-align: justify;
+	margin-top: -57px;
+	letter-spacing: 0.3em;
+	text-indent: 10px;
+}
+
+#ancla{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: black;
+	margin-top: -28px;
+	position: relative;
+	z-index: 11;
+	box-shadow: 0 0 30px rgba(0, 0, 0, 0.72);
+}
+h3{
+	width: auto;
+	height: 110px;
+	font: 6.5em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	position: absolute;
+	z-index: 12;
+	margin-top: 10%;
+	margin-left:30%;
+	text-align: center;
+	opacity: 0.5;
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-ms-transition:opacity 0.5s;
+		-o-transition:opacity 0.5s;
+	
+}
+h3:hover{
+	opacity: 1;
+}
+.textocollage{
+	width: auto;
+	height: 40px;
+	font: 2em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: #01ABF9;
+	position: absolute;
+	z-index: 12;
+	margin-top: 20%;
+	margin-left:30%;
+	text-align: left;
+	
+
+	
+	
+}
+#img1{
+	width: 19%;
+	height: 540px;
+	background-image: url(img/oj1.jpg);
+	opacity: 0.4;
+	float: left;
+	background-size: cover;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+}
+#img1:hover{
+	opacity: 1;
+}
+
+
+#img2{
+	width: 39%;
+	height:270px;
+	background-image: url(img/oj2.jpg);
+	opacity: 0.4;
+	float: left;
+	background-size: cover;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+}
+#img2:hover{
+	opacity: 1;
+}
+
+#img3{
+	width: 21%;
+	height:270px;
+	background-image: url(img/oj4.jpg);
+	opacity: 0.4;
+	float: left;
+	background-size: cover;
+	
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-ms-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+}
+#img3:hover{
+	opacity: 1;
+	}
+
+
+#img4{
+	width: 21%;
+	height:270px;
+	background-image: url(img/foto/publicidad/p3.jpg);
+	opacity: 0.4;
+	float: left;
+	background-size: cover;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+}
+#img4:hover{
+	opacity: 1;
+	}
+	#img5{
+		width: 21%;
+		height:270px;
+		background-image: url(img/oj6.jpg);
+		opacity: 0.4;
+		float: left;
+		background-size: cover;
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-ms-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+	}
+	#img5:hover{
+		opacity: 1;
+	}	
+	
+	#img6{
+		width: 39%;
+		height:270px;
+		background-image: url(img/foto/editorial/e1.jpg);
+		opacity: 0.4;
+		float: left;
+		background-size: cover;
+		-webkit-transition: opacity 0.5s;
+		-moz-transition: opacity 0.5s;
+		-ms-transition: opacity 0.5s;
+		-o-transition: opacity 0.5s;
+	}
+	#img6:hover{
+		opacity: 1;
+	}	
+	#img7{
+		width: 21%;
+		height:270px;
+		background-image: url(img/oj5.jpg);
+		opacity: 0.4;
+		float: left;
+		background-size: cover;
+		
+			-webkit-transition: opacity 0.5s;
+			-moz-transition: opacity 0.5s;
+			-ms-transition: opacity 0.5s;
+			-o-transition: opacity 0.5s;
+	}
+	#img7:hover{
+		opacity: 1;
+		
+	
+	}
+	
+	
+	
+	
+			
+			footer{
+				width: 100%;
+				height: 300px;
+				position: relative;
+				float: left;
+				z-index: 2;	
+				background-color: #f0f0f2;
+				
+		
+		}
+		.foot{
+			width: 85%;
+			overflow: hidden;
+			margin-top: 80px;
+			margin-left: auto;
+			margin-right: auto;
+		
+		}
+		
+		.pfoot a{
+			padding: 4px;
+			background-color: #666;
+			border-bottom-left-radius: 4px;
+			border-bottom-left-radius: 4px;
+			text-decoration: none;
+			color: #ccc;
+			-webkit-transition: 0.7s;
+				-moz-transition: 0.7s;
+				-ms-transition: 0.7s;
+				-o-transition: 0.7s;
+			
+		}
+		.pfoot a:hover{
+			background-color:#01ABF9 ;
+			color: white;
+		}
+		.logo2{
+			width:270px;
+			height: 40px;
+			margin-bottom: 20px;
+			background: url(img/logo2.png) no-repeat;
+			background-size: cover;
+		}
+		aside{
+			
+			overflow: hidden;
+			width: 33%;	
+			float: left;
+			
+		}
+		aside h4{
+			width: 32%;
+			font:1em 'Raleway', sans-serif;
+			font-weight: 200;
+			color: black;
+			opacity: 0.7;
+			border-bottom: 2px solid #01ABF9;
+			margin-top: 4px;
+			
+		}
+		
+		.pfoot{
+			color: #ccc;
+			font: 0.7em "Lucida Grande", Lucida, Verdana, sans-serif;
+			text-align: justify;
+			border-top: 1px solid  #01ABF9;
+			margin-top: -21px;
+			padding-top: 8px;
+			color: black;
+		}
+		.artfoot{
+			width: 30%;
+			margin-top: 1px;
+			float: left;
+			margin-left: 100px;
+			line-height: 8px;
+			
+		}
+		
+		.artfoot h4{
+			width: 48%;
+			font:1em 'Raleway', sans-serif;
+			font-weight: 200;
+			color: black;
+			opacity: 0.7;
+			border-bottom: 2px solid #01ABF9;
+			margin-top: 4px;		
+			
+			}
+		.pfoot3{
+			width: 100%;
+			margin-top: -21px;
+			padding-top:20px;
+			
+			border-top: 1px solid  #01ABF9;
+			line-height: 8px;
+			
+		}
+		.pfoot3 img{
+			margin-right: 20px;
+			
+		}
+		
+		.aside2{
+		
+			float: left;
+			margin-left:100px;
+			margin-top: 1px;
+			width: 20%;
+		}
+		.aside2 h4{
+			width: 45%;
+		}
+		
+		.aside2 a{
+			
+			text-decoration: none;
+		}
+		
+		
+		#movil{
+			display: none;
+		}
+		
+	/*********************MOVILES***************/
+	
+	@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 480px) {
+			
+			body{
+				width: 100%;
+				
+				margin: 0;
+				background-color: white;
+				
+			}
+			header{
+				display: none;			
+			}
+			.logo{
+			display: none;
+				
+			}
+
+			.nav1{
+			  display: none;
+				
+			
+			}
+			.bot{
+			display: none;
+			
+			}
+			.sub{
+				display: none;
+				
+			}
+			.my a{
+			display: none;
+				
+			}
+			.bot2{
+			display: none;
+						}
+			section{
+			display: none;
+				
+			}
+			section a{
+			display: none;
+			}
+			section video{
+			display: none;
+					 
+			}
+			.textvideo{
+			display: none;
+				
+			}
+			.textovid a{
+			display: none;
+			}
+			.art1{
+				display: none;
+			}
+			.texto{
+				display: none;
+			
+			}
+			
+			.art2{
+				
+			display: none;
+				
+			}
+			.texto2{
+				display: none;
+			
+			}
+			.texto2 p{
+			display: none;
+			}
+			.texto2 p bdi{
+				display: none;
+				
+			}
+			
+			h1{
+				display: none;
+			}
+			h2{
+				display: none;
+			}
+			
+			#ancla{
+				display: none;
+			}
+			h3{
+				display: none;
+				
+			
+			}
+			.textocollage{
+				display: none;
+				
+			
+				
+				
+			}
+			#img1{
+				display: none;
+			
+			}
+			
+			
+			#img2{
+			display: none;
+			
+			}
+			
+			#img3{
+				display: none;
+			}
+			
+			
+			
+			#img4{
+				display: none;
+			}
+				#img5{
+				display: none;
+			
+				}	
+				
+				#img6{
+					display: none;
+				
+				}	
+				#img7{
+				display: none;
+				}
+				
+				
+				
+				
+						
+						footer{
+							display: none;
+							
+					
+					}	}
+	
+		
+		

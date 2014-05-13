@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<title>OSCARJETIER - EL PORTAFOLIO -</title>
+<!-- Código del Icono -->
+<link href="img/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+
+<link rel="stylesheet" href="publicidad.css" type="text/css" />
+
+<link rel="stylesheet"  media="screen and (min-width: 0px)" href="publicidad.css" type="text/css" />
+<link rel="stylesheet"  media="screen and (min-width: 1920px)" href="responsive/grandepublicidad.css" type="text/css" />
+
+
+
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js'></script>
+</head>
+
+<body>
+
+
+<div id="wrapper">
+
+<header>
+<div class="logo"><a href="index.html"><img src="img/logo.png"></a></div>
+
+
+<nav class="nav1">
+<a href="index.html" class="bot">INICIO</a>
+
+<div class="sub">
+<p class="my"><a href="#">MI PASIÓN</a></p>
+<a href="foto.html" class="bot2">FOTOGRAFIA</a>
+<a href="vectores.html" class="bot2">VECTORES</a>
+<a href="editorial.html" class="bot2">EDITORIAL</a>
+<a href="web.html" class="bot2">WEB</a>
+</div>
+
+<a href="music.html" class="bot">MUSIC!</a>
+<a href="contact.html" class="bot">CONTACTO</a>
+</nav>
+
+</header>
+
+
+<nav class="mininav">
+<a href="#foto1" class="scroll"><div class="cubo"></div></a>
+<a href="#foto2" class="scroll"><div class="cubo"></div></a>
+<a href="#foto3" class="scroll"><div class="cubo"></div></a>
+</nav></a>
+
+<aside>
+<p><bdi>Publicidad</bdi><br> 2013</p>
+</aside>
+
+<section>
+<div id="foto1"></div>
+<div id="foto2"></div>
+<div id="foto3"></div>
+
+</section>
+
+
+
+
+
+</div>
+<script  type="text/javascript">
+jQuery(document).ready(function($) {
+ 
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+	});
+});
+</script>
+
+</body>
+</html>

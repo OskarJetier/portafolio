@@ -1,0 +1,403 @@
+
+body{
+	margin: 0;
+	background-color: #ccc;
+	
+}
+#wrapper{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	background-color: black;
+	
+}
+header{
+	width: 100%;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	z-index: 10;
+
+}
+.logo{
+	width: 19%;
+	height: 60px;
+	margin-left: 10px;
+	float: left;
+	opacity: 0.7;
+}
+.nav1{
+	width:auto;
+	overflow: hidden;
+	float:right;
+	text-align: left;
+	margin-right: 20px;
+	margin-top: 0px;
+	font: 1.2em 'Raleway', sans-serif;
+	font-weight: 200;
+	
+
+}
+.bot{
+	float: left;
+	width: auto;
+	height: 40px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	color: white;
+	text-decoration: none;
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+}
+.bot:hover{
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.sub{
+	width: 126px;
+	height: 60px;
+	float: left;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+	
+}
+.sub:hover{
+	width: 500px;
+	background-color: rgba(0, 171, 249, 0.50);
+}
+.my a{
+	margin-top: 1px;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: auto;
+	height: 60px;
+	color: white;
+	font-weight: 200;
+	float: left;
+	color: white;
+	text-decoration: none;
+	
+}
+.bot2{
+	margin-bottom: 10px;
+	width: 400px;
+	height: 60px;
+	font: 0.8em 'Raleway', sans-serif;
+	font-weight: 200;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 7px;
+
+	-webkit-transition: 0.7s;
+	-moz-transition: 0.7s;
+	-ms-transition: 0.7s;
+	-o-transition: 0.7s;
+	
+}
+.bot2:hover{
+	background-color: rgba(0, 0, 0, 0.41);
+}
+
+section{
+	width: 100%;
+	overflow: hidden;
+	float: left;
+	margin-top: 590px;
+	background-color: #666;
+	position: relative;
+	z-index:8;
+	box-shadow: 0 0 30px #000000;
+}
+article{
+	width: 85%;
+	overflow: hidden;
+	
+	margin-top: 20px;
+	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#img{
+	width: 250px;
+	height: 400px;
+	margin-right:20px ;
+	background-image: url(img/parkwaydrivechile.png);
+	float: left;
+	box-shadow: 0 0 8px #000000;
+}
+
+.art1{
+	width: 320px;
+	height: 400px;
+	margin: 0;
+	margin-right: 29px;
+		border-bottom: 2px solid #ccc;
+	float: left;
+	
+	
+}
+.art1 h2{
+	margin-top: 0;
+	font: 1.2em 'Raleway', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: justify;
+}
+.art1 p{
+	color: white;
+	font: 0.8em/20px "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-align: justify;
+	
+}
+	.art1 p a{
+		text-decoration: none;
+		color: white;
+		
+			-webkit-transition: 0.3s;
+			-moz-transition: 0.3s;
+			-ms-transition: 0.3s;
+			-o-transition: 0.3s;
+			
+		
+	}
+	.art1 p a:hover{
+		border-bottom: 2px solid #01ABF9;
+	}
+	
+	#img2{
+		width: 250px;
+		height: 400px;
+		margin-right: 20px;
+		background-image: url(img/snooplion.png);
+		float: left;
+		box-shadow: 0 0 8px #000000;
+	}
+	
+	.art2{
+		width: 320px;
+		height: 400px;
+		
+	
+		margin-left: 150px;
+		border-bottom: 2px solid #ccc;
+		margin: 0;
+		
+		
+	}
+	.art2 h2{
+		margin-top: 0;
+		font: 1.2em 'Raleway', sans-serif;
+		font-weight: bold;
+		color: white;
+		text-align: justify;
+		text-transform: uppercase;
+	}
+	.art2 p{
+		color: white;
+		font: 0.8em/20px "Lucida Grande", Lucida, Verdana, sans-serif;
+		text-align: justify;
+		
+	}
+	
+		.art2 p a{
+			text-decoration: none;
+			color: white;
+			
+				-webkit-transition: 0.3s;
+				-moz-transition: 0.3s;
+				-ms-transition: 0.3s;
+				-o-transition: 0.3s;
+				
+			
+		}
+		.art2 p a:hover{
+			border-bottom: 2px solid #01ABF9;
+		}
+	
+	
+	.art3{
+		width: 100%;
+		overflow: hidden;
+		margin-top: 20px;
+		
+		
+		float: left;
+		
+	}
+	.art3 h1{
+		width:240px;
+		margin-top: 0;
+		color: white;
+		font: 1.8em 'Raleway', sans-serif;
+		font-size: 200;
+		border-bottom: 4px solid #01ABF9;
+		margin-top: 40px;
+	}
+		.videos{
+			width: 100%;
+			overflow: hidden;
+			margin-top: -38px;
+			padding-top: 20px;
+			border-top: 1px solid #01ABF9;;
+			padding-left: 35px;
+		}
+		.videos iframe{
+			margin-right: 30px;
+			box-shadow: 0 0 8px #000000;
+			margin-top: 20px;
+		}
+		
+		
+		.art4{
+			width: 100%;
+			height: 400px;
+			margin-top: 20px;
+			border-bottom: 1px solid green;
+			background-color: gray;
+			float: left;
+			
+		}
+		
+		.art4 h1{
+			width:500px;
+			margin-top: 0;
+			color: white;
+			font: 1.8em 'Raleway', sans-serif;
+			font-size: 200;
+			border-bottom: 4px solid #01ABF9;
+		}	
+		
+		
+		
+		
+		
+		
+		footer{
+			width: 100%;
+			height: 300px;
+			position: relative;
+			float: left;
+			z-index: 2;	
+			background-color: #f0f0f2;
+			
+	
+	}
+	.foot{
+		width: 85%;
+		overflow: hidden;
+		margin-top: 80px;
+		margin-left: auto;
+		margin-right: auto;
+	
+	}
+	
+	.logo2{
+		width:270px;
+		height: 40px;
+		margin-bottom: 20px;
+		background: url(img/logo2.png) no-repeat;
+		background-size: cover;
+	}
+	aside{
+		
+		overflow: hidden;
+		width: 33%;	
+		float: left;
+		
+	}
+	aside h4{
+		width: 32%;
+		font:1em 'Raleway', sans-serif;
+		font-weight: 200;
+		color: black;
+		opacity: 0.7;
+		border-bottom: 2px solid #01ABF9;
+		margin-top: 4px;
+		
+	}
+	
+	.pfoot{
+		color: #ccc;
+		font: 0.7em "Lucida Grande", Lucida, Verdana, sans-serif;
+		text-align: justify;
+		border-top: 1px solid  #01ABF9;
+		margin-top: -21px;
+		padding-top: 8px;
+		color: black;
+	}
+	.artfoot{
+		width: 30%;
+		margin-top: 1px;
+		float: left;
+		margin-left: 100px;
+		line-height: 8px;
+		
+	}
+	
+	.pfoot a{
+		padding: 4px;
+		background-color: #666;
+		border-bottom-left-radius: 4px;
+		border-bottom-left-radius: 4px;
+		text-decoration: none;
+		color: #ccc;
+		-webkit-transition: 0.7s;
+			-moz-transition: 0.7s;
+			-ms-transition: 0.7s;
+			-o-transition: 0.7s;
+		
+	}
+	.pfoot a:hover{
+		background-color:#01ABF9 ;
+		color: white;
+	}
+	
+	
+	.artfoot h4{
+		width: 48%;
+		font:1em 'Raleway', sans-serif;
+		font-weight: 200;
+		color: black;
+		opacity: 0.7;
+		border-bottom: 2px solid #01ABF9;
+		margin-top: 4px;		
+		
+		}
+	.pfoot3{
+		width: 100%;
+		margin-top: -21px;
+		padding-top: 8px;
+		border-top: 1px solid  #01ABF9;
+		line-height: 8px;
+		
+	}
+	
+	.aside2{
+	
+		float: left;
+		margin-left:100px;
+		margin-top: 1px;
+		width: 20%;
+	}
+	.aside2 h4{
+		width: 45%;
+	}
+	
+	.aside2 a{
+		margin-right: 20px;
+		text-decoration: none;
+		
+	}
+	
+	
+	
+	

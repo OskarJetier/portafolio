@@ -1,0 +1,25 @@
+.vectores{
+	width: 55%;
+	height:1090px;
+	
+	}
+	#capa{
+	
+		width:100%;
+		height: 1090px;
+	}
+	#titulo{
+		width: 78%;
+		font: 3.4em 'Raleway', sans-serif;
+		font-weight: 200;
+		margin-top: 500px;
+	}
+	.vectores:hover #continfo{
+		margin-top: 670px;
+	
+	}
+		figure{
+		
+			margin-top: 50%;
+			
+		}
